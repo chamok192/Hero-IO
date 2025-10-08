@@ -1,12 +1,13 @@
 import React from 'react';
 import Banner from '../Components/Banner';
-import { Link, useLoaderData } from 'react-router';
+import { Link, } from 'react-router';
 import Container from '../Components/Container';
 import AppCards from '../Components/AppCards';
+import useApplications from '../Hooks/useApplications';
 
 const Home = () => {
-    const applications = useLoaderData();
-    console.log(applications);
+
+    const {applications, loading, error} = useApplications();
     return (
         <div>
             <Banner></Banner>

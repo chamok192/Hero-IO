@@ -11,7 +11,7 @@ const AppCards = ({ application }) => {
     };
 
     return (
-        <div className=" mt-8 max-w-sm mx-auto bg-white  rounded-lg overflow-hidden shadow-[0_0_18px_rgba(0,0,0,0.12)]">
+        <div className="cursor-pointer mt-8 max-w-sm mx-auto bg-white  rounded-lg overflow-hidden shadow-[0_0_18px_rgba(0,0,0,0.12)] hover:shadow-[0_0_18px_#632EE3] transition-shadow duration-300">
             <div className='p-4 h-[20rem] '>
                 <img src={image} alt={title} className="object-cover w-full h-full rounded-xl" />
             </div>
