@@ -1,0 +1,827 @@
+[
+    {
+        "id": 1,
+        "image": "https://play-lh.googleusercontent.com/phl52bmhrYfqUWnj0Bm5-K3vTjvqhIVeMTzpRuz8GQHaQvpLTGZsOHUnAY5e7qzF7g=w240-h480-rw",
+        "title": "NoteMaster",
+        "companyName": "Productive Minds Inc.",
+        "description": "NoteMaster is your ultimate productivity companion, designed to streamline note-taking and task management. Create rich text notes with images, voice memos, and tags for easy organization. Sync seamlessly across devices with cloud integration. Set reminders, collaborate with teams, and export notes as PDFs. Perfect for students, professionals, and creatives aiming to stay organized and efficient.",
+        "size": 45.2,
+        "reviews": 12850,
+        "ratingAvg": 4.7,
+        "downloads": 500000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 9000
+            },
+            {
+                "name": "4 stars",
+                "count": 2500
+            },
+            {
+                "name": "3 stars",
+                "count": 850
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://play-lh.googleusercontent.com/blZS6cfN9O64_U1J_oJJoabDnrdaMCMWGmgCmQ89Ef_5U29QrRjCQnjxsBIUmiMGcA=w240-h480-rw",
+        "title": "FitPulse",
+        "companyName": "HealthTrack Solutions",
+        "description": "FitPulse transforms your fitness journey with personalized workout plans and real-time tracking. Monitor heart rate, calories burned, and steps with smartwatch integration. Choose from over 500 exercises, including yoga, HIIT, and strength training. Get meal plans and hydration reminders tailored to your goals. Join a community of fitness enthusiasts for motivation and challenges.",
+        "size": 78.9,
+        "reviews": 34200,
+        "ratingAvg": 4.5,
+        "downloads": 1200000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 22000
+            },
+            {
+                "name": "4 stars",
+                "count": 8000
+            },
+            {
+                "name": "3 stars",
+                "count": 3000
+            },
+            {
+                "name": "2 stars",
+                "count": 800
+            },
+            {
+                "name": "1 star",
+                "count": 400
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://play-lh.googleusercontent.com/nPNUkkp3I18-70mXjMSdNlGLjHdjjYIWOrW6VcjzYlhm2tdnhF1FDXRU2O45mg0cR-8L",
+        "title": "MusicVibe",
+        "companyName": "SoundWave Studios",
+        "description": "MusicVibe offers a premium music streaming experience with over 80 million songs and podcasts. Discover new artists with curated playlists and personalized recommendations. Enjoy offline listening, high-quality audio, and lyrics synced in real-time. Create and share playlists with friends or explore global charts. Ad-free streaming with a sleek, user-friendly interface.",
+        "size": 120.5,
+        "reviews": 98700,
+        "ratingAvg": 4.8,
+        "downloads": 5000000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 75000
+            },
+            {
+                "name": "4 stars",
+                "count": 18000
+            },
+            {
+                "name": "3 stars",
+                "count": 4000
+            },
+            {
+                "name": "2 stars",
+                "count": 1000
+            },
+            {
+                "name": "1 star",
+                "count": 700
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://play-lh.googleusercontent.com/qzd5vlydFBIqYusKaQbrHSBsXPM4yi5kHuuspRPu-fTyw7bFwvthksMiSEGY1cUcJuw",
+        "title": "TravelBuddy",
+        "companyName": "GlobeTrotter Inc.",
+        "description": "TravelBuddy is your go-to app for seamless travel planning. Book flights, hotels, and activities in one place with exclusive deals. Access offline maps, real-time itinerary updates, and local guides. Share travel plans with friends and get personalized recommendations for restaurants and attractions. Ideal for solo travelers and group adventures alike.",
+        "size": 92.3,
+        "reviews": 25400,
+        "ratingAvg": 4.6,
+        "downloads": 800000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 18000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 1600
+            },
+            {
+                "name": "2 stars",
+                "count": 600
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://play-lh.googleusercontent.com/ueHooPXNFoFn6Ci-Zk14r5ljZhy3WkJfxXLh8wigHDTqxfZLDMuMyWpPanXNgJzV_g=w240-h480-rw",
+        "title": "LearnSphere",
+        "companyName": "EduTech Innovations",
+        "description": "LearnSphere makes education accessible with thousands of courses across subjects like coding, math, and history. Watch expert-led video lessons, take quizzes, and earn certificates. Track progress with detailed analytics and set learning goals. Offline mode ensures uninterrupted study sessions. Perfect for students, professionals, and lifelong learners.",
+        "size": 65.7,
+        "reviews": 17600,
+        "ratingAvg": 4.4,
+        "downloads": 600000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 10000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 2000
+            },
+            {
+                "name": "2 stars",
+                "count": 400
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://play-lh.googleusercontent.com/9x6jgzC7eX9oP-1kIsKSotz7s0ft_RvjLsKTpr4WtPfWrRcQx6C9IXQV63aspJunQFw=w240-h480-rw",
+        "title": "PhotoCraft",
+        "companyName": "PixelPerfect Labs",
+        "description": "PhotoCraft is a powerful photo editing app for amateurs and professionals alike. Apply filters, adjust lighting, and create stunning collages with intuitive tools. Add text, stickers, or AI-enhanced effects for unique creations. Share directly to social media or save in high resolution. Perfect for influencers and creatives.",
+        "size": 88.4,
+        "reviews": 43200,
+        "ratingAvg": 4.3,
+        "downloads": 1500000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 25000
+            },
+            {
+                "name": "4 stars",
+                "count": 12000
+            },
+            {
+                "name": "3 stars",
+                "count": 4000
+            },
+            {
+                "name": "2 stars",
+                "count": 1500
+            },
+            {
+                "name": "1 star",
+                "count": 700
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "https://play-lh.googleusercontent.com/QfyIoKp-d1L62AcppEh0lZVChF9imLdhUkv5RJ-qEIiF6tlzUB6tAs_OkldT5VjwWw=w240-h480-rw",
+        "title": "BudgetWise",
+        "companyName": "SmartFinance Co.",
+        "description": "BudgetWise helps you take control of your finances with ease. Track expenses, set budgets, and monitor savings goals in real-time. Sync bank accounts for automatic transaction categorization. Get insights with detailed reports and spending trends. Secure and user-friendly, it’s ideal for managing personal or small business finances.",
+        "size": 55.6,
+        "reviews": 19800,
+        "ratingAvg": 4.5,
+        "downloads": 700000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 12000
+            },
+            {
+                "name": "4 stars",
+                "count": 6000
+            },
+            {
+                "name": "3 stars",
+                "count": 1500
+            },
+            {
+                "name": "2 stars",
+                "count": 200
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "https://play-lh.googleusercontent.com/T8VpmRoEZggWddkKJ5CClQBhn2NnnIYmz-vjis8_n1t2n5fQ5lXQej1Jj0N3ZnxtsOw",
+        "title": "MeditationHub",
+        "companyName": "CalmMind Studios",
+        "description": "MeditationHub offers guided meditations and mindfulness exercises for stress relief and focus. Choose from sessions for sleep, anxiety, or productivity, led by expert instructors. Track your progress with daily streaks and mood logs. Offline access and soothing soundscapes make it perfect for beginners and seasoned meditators.",
+        "size": 72.1,
+        "reviews": 28700,
+        "ratingAvg": 4.8,
+        "downloads": 900000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 20000
+            },
+            {
+                "name": "4 stars",
+                "count": 7000
+            },
+            {
+                "name": "3 stars",
+                "count": 1200
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": "https://placehold.co/512x512?text=LanguageLeap",
+        "title": "LanguageLeap",
+        "companyName": "Polyglot Systems",
+        "description": "LanguageLeap makes learning new languages fun and effective. Practice speaking, reading, and writing with interactive lessons in over 30 languages. Engage with AI-driven conversations and pronunciation feedback. Track progress with gamified challenges and earn rewards. Ideal for travelers, students, and language enthusiasts.",
+        "size": 68.3,
+        "reviews": 15400,
+        "ratingAvg": 4.6,
+        "downloads": 400000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 10000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 1000
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": "https://placehold.co/512x512?text=RecipeRiser",
+        "title": "RecipeRiser",
+        "companyName": "FoodieLabs",
+        "description": "RecipeRiser is your kitchen companion, offering thousands of recipes for all skill levels. Filter by dietary needs, prep time, or ingredients you already have. Create meal plans, generate shopping lists, and watch step-by-step video tutorials. Share your creations with a community of home cooks. Perfect for food lovers.",
+        "size": 60.8,
+        "reviews": 22100,
+        "ratingAvg": 4.4,
+        "downloads": 600000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 14000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 2000
+            },
+            {
+                "name": "2 stars",
+                "count": 800
+            },
+            {
+                "name": "1 star",
+                "count": 300
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": "https://placehold.co/512x512?text=TaskTango",
+        "title": "TaskTango",
+        "companyName": "WorkFlow Solutions",
+        "description": "TaskTango simplifies project management for teams and individuals. Create tasks, assign deadlines, and track progress with intuitive boards and timelines. Integrate with calendar apps and collaborate in real-time. Get productivity insights and automate repetitive tasks. Ideal for freelancers, startups, and large teams.",
+        "size": 50.4,
+        "reviews": 13400,
+        "ratingAvg": 4.3,
+        "downloads": 300000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 8000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 1000
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": "https://placehold.co/512x512?text=SleepSentry",
+        "title": "SleepSentry",
+        "companyName": "RestWell Tech",
+        "description": "SleepSentry helps you achieve better sleep with advanced tracking and analysis. Monitor sleep cycles, snoring, and heart rate using your phone or wearable. Get personalized sleep tips and calming bedtime stories. Set smart alarms to wake up refreshed. Perfect for anyone seeking improved rest and recovery.",
+        "size": 70.2,
+        "reviews": 19200,
+        "ratingAvg": 4.5,
+        "downloads": 500000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 12000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 1500
+            },
+            {
+                "name": "2 stars",
+                "count": 500
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": "https://placehold.co/512x512?text=ArtStudio",
+        "title": "ArtStudio",
+        "companyName": "CreativeCanvas",
+        "description": "ArtStudio unleashes your creativity with digital drawing and painting tools. Choose from brushes, textures, and color palettes to create masterpieces. Layer support and undo/redo options make editing easy. Export in multiple formats or share directly to social platforms. Perfect for artists and hobbyists.",
+        "size": 95.6,
+        "reviews": 27800,
+        "ratingAvg": 4.7,
+        "downloads": 800000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 20000
+            },
+            {
+                "name": "4 stars",
+                "count": 6000
+            },
+            {
+                "name": "3 stars",
+                "count": 1200
+            },
+            {
+                "name": "2 stars",
+                "count": 400
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": "https://placehold.co/512x512?text=ShopSmart",
+        "title": "ShopSmart",
+        "companyName": "RetailRiser Inc.",
+        "description": "ShopSmart simplifies online shopping with price comparisons across major retailers. Scan barcodes in-store or search products to find the best deals. Save favorites, track price drops, and get personalized discounts. Secure checkout and order tracking included. Ideal for bargain hunters and frequent shoppers.",
+        "size": 62.3,
+        "reviews": 16500,
+        "ratingAvg": 4.4,
+        "downloads": 400000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 10000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 2000
+            },
+            {
+                "name": "2 stars",
+                "count": 400
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": "https://placehold.co/512x512?text=NewsNexus",
+        "title": "NewsNexus",
+        "companyName": "GlobalPulse Media",
+        "description": "NewsNexus delivers breaking news and in-depth articles from trusted sources worldwide. Customize your feed by topics, regions, or publications. Listen to news podcasts or watch live streams. Offline reading and dark mode ensure a comfortable experience. Stay informed with real-time updates.",
+        "size": 48.9,
+        "reviews": 32100,
+        "ratingAvg": 4.6,
+        "downloads": 1000000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 22000
+            },
+            {
+                "name": "4 stars",
+                "count": 8000
+            },
+            {
+                "name": "3 stars",
+                "count": 1500
+            },
+            {
+                "name": "2 stars",
+                "count": 400
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "image": "https://placehold.co/512x512?text=CodeCrafter",
+        "title": "CodeCrafter",
+        "companyName": "TechBit",
+        "description": "CodeCrafter is a mobile IDE for developers on the go. Write, test, and debug code in Python, JavaScript, and more. Access tutorials, snippets, and cloud syncing for projects. Collaborate with peers via shared repositories. Ideal for coders learning or building apps anywhere.",
+        "size": 85.4,
+        "reviews": 8900,
+        "ratingAvg": 4.3,
+        "downloads": 200000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 5000
+            },
+            {
+                "name": "4 stars",
+                "count": 2500
+            },
+            {
+                "name": "3 stars",
+                "count": 1000
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "image": "https://placehold.co/512x512?text=FitMeal",
+        "title": "FitMeal",
+        "companyName": "NutriCore Labs",
+        "description": "FitMeal crafts personalized meal plans based on your dietary goals and preferences. Log meals, track macros, and get nutrition tips from experts. Scan food labels for instant nutrient breakdowns. Sync with fitness apps for a holistic health approach. Perfect for healthy eating enthusiasts.",
+        "size": 66.7,
+        "reviews": 20400,
+        "ratingAvg": 4.5,
+        "downloads": 600000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 13000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 1800
+            },
+            {
+                "name": "2 stars",
+                "count": 400
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "image": "https://placehold.co/512x512?text=EventEasy",
+        "title": "EventEasy",
+        "companyName": "PlanPerfect Co.",
+        "description": "EventEasy simplifies event planning with tools for invitations, budgets, and schedules. Create guest lists, send digital invites, and track RSVPs in real-time. Collaborate with co-organizers and vendors seamlessly. Get venue recommendations and checklists. Ideal for weddings, parties, and corporate events.",
+        "size": 58.2,
+        "reviews": 14200,
+        "ratingAvg": 4.4,
+        "downloads": 300000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 9000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 1000
+            },
+            {
+                "name": "2 stars",
+                "count": 200
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "image": "https://placehold.co/512x512?text=BookWorm",
+        "title": "BookWorm",
+        "companyName": "LitShelf Inc.",
+        "description": "BookWorm is a haven for book lovers, offering a digital library of eBooks and audiobooks. Track reading progress, highlight passages, and join virtual book clubs. Get personalized recommendations based on your genres. Offline reading and adjustable fonts enhance your experience. Perfect for avid readers.",
+        "size": 74.5,
+        "reviews": 26300,
+        "ratingAvg": 4.7,
+        "downloads": 800000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 18000
+            },
+            {
+                "name": "4 stars",
+                "count": 6000
+            },
+            {
+                "name": "3 stars",
+                "count": 1500
+            },
+            {
+                "name": "2 stars",
+                "count": 600
+            },
+            {
+                "name": "1 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "image": "https://placehold.co/512x512?text=WeatherWise",
+        "title": "WeatherWise",
+        "companyName": "ClimateCore",
+        "description": "WeatherWise provides accurate, hyper-local weather forecasts with real-time updates. Get hourly and weekly predictions, severe weather alerts, and radar maps. Customize widgets for your home screen and track multiple locations. Ideal for travelers, outdoor enthusiasts, and daily planners seeking reliable weather insights.",
+        "size": 42.8,
+        "reviews": 38700,
+        "ratingAvg": 4.6,
+        "downloads": 1200000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 25000
+            },
+            {
+                "name": "4 stars",
+                "count": 10000
+            },
+            {
+                "name": "3 stars",
+                "count": 2500
+            },
+            {
+                "name": "2 stars",
+                "count": 800
+            },
+            {
+                "name": "1 star",
+                "count": 400
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "image": "https://placehold.co/512x512?text=PodcastPro",
+        "title": "PodcastPro",
+        "companyName": "AudioWave Media",
+        "description": "PodcastPro is your hub for discovering and enjoying podcasts across genres. Stream or download episodes for offline listening. Create custom playlists and get tailored recommendations. Adjust playback speed and skip intros for a seamless experience. Perfect for podcast enthusiasts and casual listeners.",
+        "size": 52.4,
+        "reviews": 17600,
+        "ratingAvg": 4.5,
+        "downloads": 500000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 11000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 1200
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "image": "https://placehold.co/512x512?text=HomeHub",
+        "title": "HomeHub",
+        "companyName": "SmartLiving Tech",
+        "description": "HomeHub controls your smart home devices from one intuitive app. Manage lights, thermostats, and security cameras with ease. Set automation routines for energy savings and convenience. Monitor energy usage and receive real-time alerts. Ideal for tech-savvy homeowners and renters.",
+        "size": 67.9,
+        "reviews": 13400,
+        "ratingAvg": 4.3,
+        "downloads": 300000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 8000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 1000
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "image": "https://placehold.co/512x512?text=StudyStar",
+        "title": "StudyStar",
+        "companyName": "EduGlow Systems",
+        "description": "StudyStar boosts academic success with tools for students and educators. Create flashcards, organize study schedules, and access subject-specific resources. Collaborate on group projects and take practice quizzes. Offline mode ensures uninterrupted study. Perfect for high school and college students.",
+        "size": 61.2,
+        "reviews": 15600,
+        "ratingAvg": 4.4,
+        "downloads": 400000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 10000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 1200
+            },
+            {
+                "name": "2 stars",
+                "count": 300
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "image": "https://placehold.co/512x512?text=PetPal",
+        "title": "PetPal",
+        "companyName": "FurCare Inc.",
+        "description": "PetPal is the ultimate app for pet owners, offering care tips and reminders for feeding, grooming, and vet visits. Track your pet’s health records and set exercise goals. Connect with local pet services and join a community of pet lovers. Perfect for dog, cat, and small pet owners.",
+        "size": 54.7,
+        "reviews": 18700,
+        "ratingAvg": 4.6,
+        "downloads": 500000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 12000
+            },
+            {
+                "name": "4 stars",
+                "count": 5000
+            },
+            {
+                "name": "3 stars",
+                "count": 1500
+            },
+            {
+                "name": "2 stars",
+                "count": 200
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "image": "https://placehold.co/512x512?text=FocusFlow",
+        "title": "FocusFlow",
+        "companyName": "MindSpace Tech",
+        "description": "FocusFlow enhances productivity with Pomodoro timers and distraction-blocking features. Set goals, track work sessions, and analyze productivity trends. Integrate with calendar apps for seamless scheduling. Enjoy ambient sounds to boost focus. Ideal for students, freelancers, and professionals aiming to work smarter.",
+        "size": 49.8,
+        "reviews": 14300,
+        "ratingAvg": 4.5,
+        "downloads": 400000,
+        "ratings": [
+            {
+                "name": "5 stars",
+                "count": 9000
+            },
+            {
+                "name": "4 stars",
+                "count": 4000
+            },
+            {
+                "name": "3 stars",
+                "count": 1000
+            },
+            {
+                "name": "2 stars",
+                "count": 200
+            },
+            {
+                "name": "1 star",
+                "count": 100
+            }
+        ]
+    }
+]

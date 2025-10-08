@@ -11,10 +11,12 @@ const router = createBrowserRouter([
         path: "/",
         element: <MainLayout />,
         errorElement: <Error/>,
+        hydrateFallbackElement: <div>Loading...</div>,
         children:[
             {
                 path: "/",
                 element: <Home />,
+                loader: ()=> fetch('./mobile_app.json'),
             },
             {
                 path: "/installation",
