@@ -8,10 +8,9 @@ const Application = () => {
     const [search, setSearch] = useState('');
     const term = search.trim().toLocaleLowerCase();
     const matchedApps = term ? applications
-    .filter(app => app.title
-        .toLocaleLowerCase()
-        .includes(term)) : applications; 
-
+        .filter(app => app.title
+            .toLocaleLowerCase()
+            .includes(term)) : applications;
 
     return (
         <div>
@@ -39,15 +38,19 @@ const Application = () => {
                                         <path d="m21 21-4.3-4.3"></path>
                                     </g>
                                 </svg>
-                                <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search" />
+                                <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" required placeholder="Search" />
                             </label>
                         </div>
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8'>
-                        {matchedApps.map(application => (
-                            <AppCards key={application.id} application={application} />
-                        ))}
+                        {matchedApps.length === 0 ? (
+                            <p className='text-gray-500 text-5xl font-semibold text-center py-16'>No App Found</p>
+                        ) : (
+                            matchedApps.map(application => (
+                                <AppCards key={application.id} application={application} />
+                            ))
+                        )}
                     </div>
                 </div>
             </Container>

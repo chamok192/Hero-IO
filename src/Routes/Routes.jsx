@@ -5,6 +5,7 @@ import Application from "../pages/Application";
 import MainLayout from "../Layouts/MainLayout";
 import Error from "../Error/Error";
 import AppDetails from "../pages/AppDetails";
+import AppError from "../Error/AppError";
 
 
 const router = createBrowserRouter([
@@ -31,11 +32,13 @@ const router = createBrowserRouter([
                 element: <AppDetails />,
             },
         ],
+
+        
     },
-    // {
-    //     path:"*",
-    //     element: <Error/>
-    // }
+    {
+        path:"/appError",
+        element: <AppError/>
+    }
     
     
 ]);

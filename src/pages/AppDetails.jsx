@@ -11,10 +11,10 @@ import 'react-toastify/dist/ReactToastify.css';
 const AppDetails = () => {
     const { id } = useParams();
     const { applications, loading, error } = useApplications();
-    const [isInstalled, setIsInstalled] = useState(false); 
+    const [isInstalled, setIsInstalled] = useState(false);
 
     useEffect(() => {
-        if (!applications || applications.length === 0) return; 
+        if (!applications || applications.length === 0) return;
         const app = applications.find(p => String(p.id) === id);
         if (app) {
             const existingInstalls = JSON.parse(localStorage.getItem('installs') || '[]');
@@ -44,7 +44,7 @@ const AppDetails = () => {
     };
 
     const handleAddToInstall = () => {
-        if (!app) return; 
+        if (!app) return;
         if (isInstalled) {
             toast.info('App is already installed', {
                 position: 'top-right',
@@ -82,6 +82,7 @@ const AppDetails = () => {
                                     <p className="text-[#627382]">
                                         Developed By: <span className="font-semibold text-purple-600">{companyName}</span>
                                     </p>
+                                    <hr className='text-gray-200' />
                                     <div className="flex flex-col md:flex-row flex-wrap md:items-center gap-6 mt-4">
                                         <div className="space-y-1">
                                             <FiDownload className="text-green-500 text-4xl" />
@@ -108,14 +109,15 @@ const AppDetails = () => {
                                     <button
                                         onClick={handleAddToInstall}
                                         className={`cursor-pointer mt-6 px-4 py-2 rounded font-semibold ${isInstalled
-                                                ? 'border border-green-500 text-green-700 cursor-not-allowed'
-                                                : 'bg-[#00D390] text-white hover:bg-green-600'
+                                            ? 'border border-green-500 text-green-700 cursor-not-allowed'
+                                            : 'bg-[#00D390] text-white hover:bg-green-600'
                                             }`}
                                     >
                                         {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
                                     </button>
                                 </div>
                             </div>
+                            
 
                             <div className="p-6 border-b border-gray-200">
                                 <h2 className="text-lg font-semibold text-gray-900">Ratings</h2>
@@ -133,6 +135,7 @@ const AppDetails = () => {
                                     ))}
                                 </div>
                             </div>
+                            
 
                             <div className="p-6">
                                 <h2 className="text-lg font-semibold text-gray-900 mb-4">Description</h2>
