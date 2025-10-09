@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useApplications from '../Hooks/useApplications';
 import AppCards from '../Components/AppCards';
-import { Link } from 'react-router';
 import Container from '../Components/Container';
 
 const Application = () => {
-    const {applications}=useApplications();
+    const { applications } = useApplications();
+    const [search, setSearch] = useState('');
+    const term = search.trim().toLocaleLowerCase();
+    const matchedApps = term ? applications
+    .filter(app => app.title
+        .toLocaleLowerCase()
+        .includes(term)) : applications; 
+
+
     return (
         <div>
             <Container>
@@ -16,7 +23,7 @@ const Application = () => {
                     </div>
 
                     <div className='flex flex-col md:flex-row justify-between items-center mb-8 gap-4'>
-                        <div className='font-semibold'> <span>({applications.length})</span> Apps Found</div>
+                        <div className='font-semibold'> <span>({matchedApps.length})</span> Apps Found</div>
 
                         <div>
                             <label className="input">
@@ -32,13 +39,13 @@ const Application = () => {
                                         <path d="m21 21-4.3-4.3"></path>
                                     </g>
                                 </svg>
-                                <input type="search" required placeholder="Search" />
+                                <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search" />
                             </label>
                         </div>
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8'>
-                        {applications.map(application => (
+                        {matchedApps.map(application => (
                             <AppCards key={application.id} application={application} />
                         ))}
                     </div>

@@ -4,6 +4,7 @@ import Installation from "../pages/Installation";
 import Application from "../pages/Application";
 import MainLayout from "../Layouts/MainLayout";
 import Error from "../Error/Error";
+import AppDetails from "../pages/AppDetails";
 
 
 const router = createBrowserRouter([
@@ -16,7 +17,6 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />,
-                loader: ()=> fetch('./mobile_app.json'),
             },
             {
                 path: "/installation",
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: "/application",
                 element: <Application />,
+            },
+            {
+                path:"/application/:id",
+                element: <AppDetails />,
             },
         ],
     },
