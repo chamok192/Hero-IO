@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link} from 'react-router';
-import NavBar from '../Components/NavBar';
-import Footer from '../Components/Footer';
 import appError from "../assets/App-Error.png"
 
 const AppError = () => {
