@@ -8,7 +8,6 @@ const AppError = () => {
     
     return (
         <div>
-            <NavBar />
 
             <div className='my-8  flex flex-col justify-center items-center'>
                 <img src={appError} alt="" />
@@ -18,8 +17,6 @@ const AppError = () => {
             
                 <Link to='/application' className='mt-6 px-4 py-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white rounded'>Go Back!</Link>
             </div>
-
-            <Footer />
         </div>
     );
 };

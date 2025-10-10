@@ -6,6 +6,7 @@ import MainLayout from "../Layouts/MainLayout";
 import Error from "../Error/Error";
 import AppDetails from "../pages/AppDetails";
 import AppError from "../Error/AppError";
+import Loading from "../Components/Loading";
 
 
 const router = createBrowserRouter([
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <MainLayout />,
         errorElement: <Error/>,
-        hydrateFallbackElement: <div>Loading...</div>,
+        hydrateFallbackElement: <Loading/>,
         loader: () => new Promise(resolve => setTimeout(() => resolve({}), 1000)),
         children:[
             {
@@ -27,19 +28,18 @@ const router = createBrowserRouter([
             {
                 path: "/application",
                 element: <Application />,
+                errorElement: <AppError />,
             },
             {
                 path:"/application/:id",
                 element: <AppDetails />,
+                errorElement: <AppError />,
             },
         ],
 
         
     },
-    {
-        path:"/appError",
-        element: <AppError/>
-    }
+    
     
     
 ]);

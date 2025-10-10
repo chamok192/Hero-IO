@@ -8,6 +8,7 @@ import { AiFillLike } from 'react-icons/ai';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../Components/Loading';
+import AppError from '../Error/AppError';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -71,7 +72,7 @@ const AppDetails = () => {
                     {loading ? (
                         <Loading/>
                     ) : error || !app ? (
-                        <div className="text-center py-20 text-3xl font-bold">App Not Found</div>
+                        <AppError/>
                     ) : (
                         <>
                             <div className="flex flex-col md:flex-row items-start p-6 border-b border-gray-200">
