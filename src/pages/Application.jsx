@@ -1,18 +1,26 @@
-import React, { useState, useTransition } from 'react';
+import React, { useEffect, useState, useTransition } from 'react';
 import useApplications from '../Hooks/useApplications';
 import AppCards from '../Components/AppCards';
 import Container from '../Components/Container';
 import Loading from '../Components/Loading';
+import { useNavigate } from 'react-router';
 
 const Application = () => {
     const { applications, loading } = useApplications();
     const [search, setSearch] = useState('');
     const [isPending, startTransition] = useTransition();
+    const navigate = useNavigate();
     const term = search.trim().toLocaleLowerCase();
     const matchedApps = term ? applications
         .filter(app => app.title
             .toLocaleLowerCase()
             .includes(term)) : applications;
+
+    useEffect(() => {
+        if (!loading && !isPending && term && matchedApps.length === 0) {
+            navigate('/appError');
+        }
+    }, [loading, isPending, term, matchedApps.length, navigate]);
 
     return (
         <div>

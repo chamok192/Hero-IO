@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import useApplications from '../Hooks/useApplications';
 import Container from '../Components/Container';
 import Loading from '../Components/Loading';
@@ -11,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const AppDetails = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const { applications, loading, error } = useApplications();
     const [isInstalled, setIsInstalled] = useState(false);
 
@@ -26,6 +28,12 @@ const AppDetails = () => {
 
     const app = applications.find(p => String(p.id) === id);
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app || {};
+
+    useEffect(() => {
+        if (!loading && (error || !app)) {
+            navigate('/appError');
+        }
+    }, [loading, error, app, navigate]);
 
     const formatDownloads = (value) => {
         if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
