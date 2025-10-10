@@ -14,11 +14,11 @@ const Banner = () => {
                     <p className='max-w-[70%] mx-auto text-center pt-4 text-xl text-[#627382]'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
                     <div className='flex justify-center gap-2'>
-                        <a href='#' className="btn flex items-center gap-2 bg-white text-black  border-2 border-gray-300 hover:bg-gray-100 mt-8">
+                        <a href='https://play.google.com/store/games?hl=en' className="btn flex items-center gap-2 bg-white text-black  border-2 border-gray-300 hover:bg-gray-100 mt-8">
                             <FaGooglePlay className="text-xl text-blue-400" />
                             Google Play
                         </a>
-                        <a href='#' className="btn flex items-center gap-2 bg-white text-black  border-2 border-gray-300 hover:bg-gray-100 mt-8">
+                        <a href='https://www.apple.com/app-store/' className="btn flex items-center gap-2 bg-white text-black  border-2 border-gray-300 hover:bg-gray-100 mt-8">
                             <FaAppStoreIos className="text-xl text-blue-400" />
                             App Store
                         </a>

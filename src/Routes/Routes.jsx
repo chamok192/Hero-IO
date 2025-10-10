@@ -14,6 +14,7 @@ const router = createBrowserRouter([
         element: <MainLayout />,
         errorElement: <Error/>,
         hydrateFallbackElement: <div>Loading...</div>,
+        loader: () => new Promise(resolve => setTimeout(() => resolve({}), 1000)),
         children:[
             {
                 path: "/",

@@ -7,6 +7,7 @@ import { TiStarFullOutline } from 'react-icons/ti';
 import { AiFillLike } from 'react-icons/ai';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../Components/Loading';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -68,7 +69,7 @@ const AppDetails = () => {
             <Container>
                 <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
                     {loading ? (
-                        <div className="text-center py-20 text-3xl font-bold">Loading...</div>
+                        <Loading/>
                     ) : error || !app ? (
                         <div className="text-center py-20 text-3xl font-bold">App Not Found</div>
                     ) : (
